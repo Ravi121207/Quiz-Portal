@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block start %}
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow-lg p-5 text-center" style="width: 100%; max-width: 450px;">
+        
+        {% comment %} <h2 class="mb-4">Dashboard</h2> {% endcomment %}
+
+        <!-- Start Quiz Button -->
+        <a href="/quiz/" class="btn btn-success btn-lg w-100 mb-3">
+            Start Quiz
+        </a>
+
+        <!-- Logout Button -->
+        <a href="/logout/" class="btn btn-outline-danger btn-lg w-100">
+            Logout
+        </a>
+
+    </div>
+</div>
+
+{% endblock %}
